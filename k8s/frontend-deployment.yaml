@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: <DOCKERHUB_USER>/mean-frontend:<TAG>
+          image: miguelperezunir/mean-frontend:v1
           imagePullPolicy: Always
           ports:
             - containerPort: 80
